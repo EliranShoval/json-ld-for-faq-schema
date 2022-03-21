@@ -1,1 +1,1 @@
-# json-ld-for-faq-shema
+# json-ld-for-faq-schema
