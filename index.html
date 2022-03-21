@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON-LD</title>
+    <link rel="stylesheet" href="main.css">
+    <!---Copy the script JSON-LD in your head page-->
+    <!--https://developers.google.com/search/docs/advanced/structured-data/faqpage#guidelines-->
+    <!-- Good Luck!!-->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                "@type": "Question",
+                "name": "Write your question",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "<p> Write your answer </p>"
+                }
+            }]
+        }
+    </script>
+    <!---Copy the script JSON-LD in your head page-->
+
+</head>
+
+<body>
+
+    <!--Write your content page-->
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
